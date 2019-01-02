@@ -56,6 +56,18 @@ body {
     line-height: 1.5;
     margin-bottom: 1em;
 }
+.fixer {
+    clear: both;
+}
+#content img {
+    float: left;
+    width: 350px;
+    margin-right: 1.5em;
+    margin-bottom: 1em;
+    padding: .8em;
+    border: 2px solid teal;
+    background-color: gold;
+}
 #content li {
     list-style-type: armenian;
     margin-left: 2em;
