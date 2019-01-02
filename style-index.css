@@ -13,13 +13,20 @@ body {
 }
 #header {
     background-color: rgb(245, 245, 234);
-    
     padding: 1.5em 1em;
 }
+#header img {
+    display: inline-block;
+    width: 150px;
+    vertical-align: middle;
+    margin-right: 1em;
+}
 #header h1 {
+    display: inline-block;
     color: rgb(97, 97, 97);
     text-shadow: 1px 1px 2px steelblue;
 }
+
 #navigator {
     background-color: teal;
     /*padding: 1.5em 1em;*/
