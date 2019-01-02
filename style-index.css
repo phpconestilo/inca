@@ -13,10 +13,30 @@ body {
 }
 #header {
     background-color: rgb(245, 245, 234);
-    outline: 10px solid rgb(219, 28, 28);
+    
     padding: 1.5em 1em;
 }
 #header h1 {
     color: rgb(97, 97, 97);
     text-shadow: 1px 1px 2px steelblue;
+}
+#navigator {
+    background-color: teal;
+    /*padding: 1.5em 1em;*/
+    border-top: 10px solid rgb(219, 28, 28);
+    border-bottom: 10px solid rgb(219, 28, 28);
+}
+#navigator ul {
+    list-style: none;
+    display: flex;
+}
+#navigator li a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 1em;
+    transition: color .3s ease-in-out;
+}
+#navigator li a:hover {
+    color: gold;
 }
